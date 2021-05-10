@@ -62,7 +62,7 @@ body{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    height: 100vh;
+    height: auto;
     width: 100%;
     align-items: center;
 }
@@ -91,11 +91,11 @@ body{
     position: absolute;
     width: 50%;
     left: 35vw;
-    padding: 20px 20px;
+    padding: 2vw 3vw;
     align-items: center;
     justify-content: center;
     border: 2px solid whitesmoke;
-    border-radius: 50px;
+    border-radius: 5vw;
 }
 .HdomainName{
   font-family: "Fredericka the Great", cursive;
@@ -195,13 +195,14 @@ body{
 /* Text in domain section */
 .Hdomaintext{
     position: absolute;
-    top: 2em;
-    right: 1em;
+    font-size: 1.1vw;
+    top: 1vw;
+    right: .25vw;
     width: 60%;
     height: auto;
 }
 .Hdomaintext1, .Hdomaintext2,.Hdomaintext3{
-    margin-top: 2em;
+    margin-top: 1vw;
     
 }
 
@@ -222,25 +223,24 @@ body{
 .Hprice .buttons {
     /* margin-top: -em; */
     text-align: center;
-    border-radius: 30px;
+    border-radius: 50px;
   }
   
   .blob-btn {
     z-index: 1;
     position: relative;
-    padding: 20px 46px;
-    margin-bottom: 30px;
+    padding: 1.5vw 3vw;
+    margin-bottom: 3vw;
     text-align: center;
     text-transform: uppercase;
     color: #00CBF9;
-    font-size: 16px;
     font-weight: bold;
     background-color: transparent;
     outline: none;
     border: none;
     transition: color 0.5s;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 50px;
   }
   .blob-btn:before {
     content: "";
@@ -251,7 +251,7 @@ body{
     width: 100%;
     height: 100%;
     border: 2px solid #00CBF9;
-    border-radius: 30px;
+    border-radius: 50px;
   }
   .blob-btn:after {
     content: "";
@@ -262,17 +262,17 @@ body{
     width: 100%;
     height: 100%;
     transition: all 0.3s 0.2s;
-    border-radius: 30px;
+    border-radius: 50px;
   }
   .blob-btn:hover {
     color: #ffffff;
-    border-radius: 30px;
+    border-radius: 50px;
   }
   .blob-btn:hover:after {
     transition: all 0.3s;
     left: 0;
     top: 0;
-    border-radius: 30px;
+    border-radius: 50px;
   }
   .blob-btn__inner {
     z-index: -1;
@@ -282,7 +282,7 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 50px;
     background: #ffffff;
   }
   .blob-btn__blobs {
@@ -342,6 +342,11 @@ body{
    text-align: center;
    font-family: "Fredericka the Great", cursive;
 }
+
+.Hservices h1{
+  font-size: 4vw;
+}
+
 /* Corousel */
 .carousel-inner{
   height: 75vh;
@@ -350,16 +355,22 @@ body{
   height: 75vh;
 }
 
+.Hcategories img{
+  width: 100%;
+  height: auto;
+  /* margin: auto; */
+  margin-left: 4vw;
+}
 
 
 /* Contact Section */
 #contact{
   position: relative;
-  font-family: "Fredericka the Great", cursive;
+  
 }
 #contact .h-primary{
   font-family: 'Bree Serif', serif;
-  font-size: 3.8vw;
+  font-size: 4vw;
   padding: 12px;
   text-align: center;
 }
@@ -377,14 +388,16 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 34px;
+  padding-bottom: 4vw;
 }
 #contact-box input, 
 #contact-box textarea{
   width: 100%;
   padding: 0.5rem;
   border-radius: 9px;
-  font-size: 1.1vw;
+  font-size: 1.25vw;
+  padding: .5vw;
+  padding-left: 1.5vw;
 } 
 
 #contact-box form{
@@ -392,8 +405,8 @@ body{
 }
 
 #contact-box label{
- font-size: 1.3rem;
- font-family: 'Bree Serif', serif;
+ font-size: 1.75vw;
+ font-family: "Fredericka the Great", cursive;
 
 }
 
@@ -403,16 +416,17 @@ body{
   border: 2px solid white;
   background-color: #64B3F4;
   color: white;
-  margin: 17px;
-  font-size: 1.5rem;
-  border-radius: 10px;
+  margin: 2vw;
+  font-size: 1.5vw;
+  font-family: "Fredericka the Great", cursive;
+  border-radius: 50px;
   cursor:pointer;
 }
 
 footer{
   background: #A6F890;
   font-family: 'Bree Serif', serif;
-  font-size: 1.2rem;
+  font-size: 1.5vw;
   color: white;
   padding: 9px 20px;
   text-align: center;
@@ -423,8 +437,8 @@ footer{
 /* Animation to slide in from top  */
 @-webkit-keyframes slide-in-top {
     0% {
-      -webkit-transform: translateY(-400px);
-              transform: translateY(-400px);
+      -webkit-transform: translateY(-30vw);
+              transform: translateY(-30vw);
       opacity: 0;
     }
     100% {
@@ -435,8 +449,8 @@ footer{
   }
   @keyframes slide-in-top {
     0% {
-      -webkit-transform: translateY(-400px);
-              transform: translateY(-400px);
+      -webkit-transform: translateY(-30vw);
+              transform: translateY(-30vw);
       opacity: 0;
     }
     100% {
