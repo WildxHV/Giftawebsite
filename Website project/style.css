@@ -222,3 +222,6 @@ h1 {
     transform: translateZ(0) scale(1.4);
   }
 }
+.row{
+  margin-right: 0;
+}
