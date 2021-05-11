@@ -36,14 +36,16 @@
     transition: transform 0.5s;
 }
 
-.carousel figure img {
+.carousel figure .img {
     width: 100%;
+    /* height: auto; */
     box-sizing: border-box;
     padding: 0 0px;
 }
 
-.carousel figure img:not(:first-of-type) {
+.carousel figure .img:not(:first-of-type) {
     position: absolute;
+    /* height: auto; */
     left: 0;
     top: 0;
 }
@@ -64,3 +66,21 @@
     letter-spacing: 1px;
     padding: 5px 10px;
 }
+
+
+.carousel .abs {
+    background: #444;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    /* max-height: auto; */
+    overflow-y: auto;
+  }
+  .carousel .abs .a-item{
+    height: 30vw;
+    border: 1px solid #000;
+  }
+
+  .carousel .abs .a-item img{
+      width: 100%;
+  }
