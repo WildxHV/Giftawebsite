@@ -59,7 +59,7 @@
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #F9F871; /*The typwriter cursor*/
     margin: 2px auto;
-    color: #071a52;
+    /* color: #071a52; */
     font-weight: none; 
     animation: 
       typing 3.5s steps(35, end),
@@ -89,7 +89,7 @@
     animation: animateprefix infinite 15s;
     padding-left: 0px;
     /* color: #00E0E5; */
-    color: #071a52;
+    /* color: #071a52; */
     font-weight: normal;
 }
 @keyframes animateprefix {
@@ -115,7 +115,7 @@
     animation: animatesuffix infinite 6s;
     padding-left: 0px;
     /* color: #00E0E5; */
-    color: #071a52;
+    /* color: #071a52; */
     font-weight: normal;
 }
 
