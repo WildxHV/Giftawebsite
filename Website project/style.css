@@ -13,13 +13,15 @@
 }
 
 .tagline1V h1 {
-  font-family: "Fredericka the Great", cursive;
   margin-top: 10%;
+  font-size: 3vw;
+  font-weight: bold;
 }
 
 .tagline1V h2 {
-  font-family: "Fredericka the Great", cursive;
   font-size: 2.1vw;
+  font-size: 2vw;
+  font-weight: bold;
 }
 
 .tagline1V p {
@@ -29,13 +31,11 @@
 
 .nav-item a {
   font-size: 1.3vw;
-  font-family: "Fredericka the Great", cursive;
   font-weight: bold;
   color: black;
 }
 
 .fs-4 {
-  font-family: "Fredericka the Great", cursive;
   font-weight: bold;
   margin-left: 2.5vw;
 }
@@ -92,7 +92,6 @@ h1 {
 
 /* css for blob button  */
 .buttonsV {
-  /* margin-top: -em; */
   text-align: center;
   border-radius: 30px;
 }
@@ -207,14 +206,14 @@ h1 {
 }
 .contactlinks{
   height: auto;
-  background-color:#00CBF9 ;
-  /* width: 100vw; */
+  background-color:#E6F4F1 ;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .contactlinks h2{
   font-size: 5vw;
+  font-weight: bold;
 }
 .contactlinks h3{
   font-size: 3vw;
@@ -229,10 +228,16 @@ h1 {
   cursor: pointer;
 }
 #VC{
-  /* margin-top: 10px; */
   width: 15vw;
 }
 #HV{
-  /* margin-top: 10px; */
   width: 15vw;
+}
+
+#orderplaceheading{
+  font-size: 3vw;
+  font-weight: bold;
+}
+#Vorder{
+  background-color: #D1FAE9;
 }
