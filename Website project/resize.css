@@ -1,0 +1,107 @@
+@media only screen and (max-width:550px) {
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #blobV{
+        width: 100vw;
+        height: auto;
+    }
+    .tagline1V {
+        width: 100vw;
+        height: auto;
+    }
+    .tagline1V h1{
+        font-size: 5.75vw;
+    }
+    .tagline1V h2{
+        font-size: 4.25vw;
+    }
+    .tagline1V p{
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+     
+    /* Contact us button */
+    .buttonsV{
+        font-size: 3.5vw;
+    }
+
+    /* domain section */
+    .Hblankspace{
+        display: none;
+      }
+    .Hdomain{
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+       
+    }
+    #HcomputerImg{
+        position: relative;
+       /* justify-content: center; */
+       width: 60vw;
+       height: auto;
+
+       -webkit-animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+       animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+       /* animation-delay: 1.3s; */
+    }
+    .HdomainName h1{
+        font-size: 4.75vw;
+        margin: 0 0;
+    }
+    .HdomainName{
+        /* display: block; */
+        /* position: relative; */
+        width: 82%;
+        height: auto;
+        margin: 0;
+        margin-top: 5vw;
+        /* left: 0; */
+        /* top: 10vw; */
+    }
+
+    .Hdomaintext{
+        position: inherit;
+        width: 90vw;
+        padding: 20px;
+        /* top: 10vw; */
+        font-size: 3.75vw;
+        margin-bottom: 5vw;
+    }
+    
+    .Hprice{
+        left: 30%;
+
+        font-size: 2.5vw;
+    }
+
+    /* Template Section */
+
+    .Hservices h1{
+        font-size: 5.5vw;
+      }
+      .carousel figure{
+          width: 60%;
+          /* height: auto; */
+      }
+      .carousel {
+        padding: 1px;
+        perspective: 350px;
+    }
+      .carousel .abs .a-item{
+        height: 60vw;
+    }
+    .carousel h2{
+        font-size: 2vw;
+    }
+
+
+    /* Footer */
+footer{
+    font-size: 2.5vw;
+}
+}

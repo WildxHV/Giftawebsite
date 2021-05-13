@@ -13,7 +13,7 @@
 
 .carousel {
     padding: 20px;
-    perspective: 500px;
+    perspective: 600px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
 
 .carousel nav button {
     flex: 0 0 auto;
-    margin: 0 5px;
+    margin: 10px 5px;
     cursor: pointer;
     color: #333;
     background: none;
@@ -68,7 +68,7 @@
     overflow-y: auto;
   }
   .carousel .abs .a-item{
-    height: 30vw;
+    height: 40vw;
     border: 1px solid #000;
   }
 

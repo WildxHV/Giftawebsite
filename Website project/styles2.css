@@ -24,23 +24,23 @@
 
 } 
 
-.Hdomaindesc{
-    position: absolute;
+.HdomainName{
+  display: flex;
+    /* position: absolute; */
     width: 50%;
-    left: 35vw;
+    margin-left:  35vw;
     padding: 2vw 3vw;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid whitesmoke;
+    border: 2px solid black;
+    background: white;
     border-radius: 5vw;
 }
-.HdomainName{
+/* .HdomainName{
   display: flex;
   align-items: center;
   font-size: 3vw;
   font-weight: bold;
 
-}
+} */
 /* Search icon */
 .gg-search{
   position: absolute;
